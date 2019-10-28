@@ -1,0 +1,27 @@
+{
+  "attachments": [
+    {
+      "pretext": "This is the attachment pretext.",
+      "text": "This is the attachment text.",
+      "actions": [
+        {
+          "name": "Ephemeral Message",
+          "integration": {
+            "url": "http://127.0.0.1:8090",
+            "context": {
+              "action": "help_menu"
+            }
+          }
+        }, {
+          "name": "Update",
+          "integration": {
+            "url": "http://127.0.0.1:8090",
+            "context": {
+              "action": "wellcome_menu"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
